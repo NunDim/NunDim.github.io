@@ -3,23 +3,15 @@ secondary_name: ""
 navbar_name: "Nunzio Dimola"
 
 positions:
-- name: Postdoctoral Research Fellow
-- name: MOX Laboratory, Politecnico di Milano
-
+  - name: "Postdoctoral Research Fellow"
+  - name: "MOX Laboratory, Politecnico di Milano"
 
 email: "nunzio.dimola@polimi.it"
 
-# Add these once you have the corresponding IDs/links
-# cv_link: /assets/files/Nunzio_Dimola_CV.pdf
-# gscholar: YOUR_GOOGLE_SCHOLAR_ID
-
-github: NunDim
-
-# linkedin: your-linkedin-id
-# orcid: 0000-0000-0000-0000
-
+github: "NunDim"
 
 short_bio_text_justify: false
+
 short_bio: >-
   <p>
     I am a Postdoctoral Research Fellow at the
@@ -36,41 +28,4 @@ short_bio: >-
     and learning-enhanced numerical methods.
   </p>
 
-
-portrait_url: /assets/images/photos/portrait.png
-
-# Uncomment this only if you want a caption below your photograph
-# portrait_caption: >-
-#   Nunzio Dimola
-
-
-education:
-- name: Politecnico di Milano
-  position: >-
-    Ph.D. in Mathematical Models and Methods in Engineering <br/>
-    MOX Laboratory, Department of Mathematics
-  date: 2022 - 2025
-
-- name: Politecnico di Bari
-  position: M.Sc. in Mechanical Engineering
-  date: 2018 - 2021
-
-- name: Politecnico di Bari
-  position: B.Sc. in Mechanical Engineering
-  date: 2014 - 2018
-
-
-experience:
-- name: Politecnico di Milano
-  position: >-
-    Postdoctoral Research Fellow <br/>
-    MOX Laboratory, Department of Mathematics
-  date: 2026 - present
-
-- name: Simula Research Laboratory
-  position: Research Visitor
-  date: Aug. 2025 - Oct. 2025
-
-
-# I would leave awards off the homepage for now.
-# awards:
+portrait_url: "/assets/images/photos/portrait.png"
