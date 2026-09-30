@@ -1,61 +1,78 @@
-primary_name: "Your Name"
+```yaml
+primary_name: "Nunzio Dimola"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Nunzio Dimola"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: Postdoctoral Research Fellow
+- name: MOX Laboratory, Politecnico di Milano
 
 
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
+email: "nunzio.dimola@polimi.it"
+
+# Add these once you have the corresponding IDs/links
+# cv_link: /assets/files/Nunzio_Dimola_CV.pdf
+# gscholar: YOUR_GOOGLE_SCHOLAR_ID
+
+github: NunDim
+
+# linkedin: your-linkedin-id
 # orcid: 0000-0000-0000-0000
+
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
-  </p>
-  <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    I am a Postdoctoral Research Fellow at the
+    <a href="https://mox.polimi.it/" target="_blank">MOX Laboratory</a>,
+    Department of Mathematics, Politecnico di Milano.
+    My research lies at the intersection of numerical analysis,
+    numerical linear algebra, and scientific machine learning.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  <p>
+    I am particularly interested in iterative solvers and preconditioning
+    for partial differential equations, including Krylov subspace methods,
+    operator preconditioning, mixed-dimensional and multiphysics problems,
+    and learning-enhanced numerical methods.
+  </p>
+
+
+portrait_url: /assets/images/photos/portrait.png
+
+# Uncomment this only if you want a caption below your photograph
+# portrait_caption: >-
+#   Nunzio Dimola
+
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: Politecnico di Milano
+  position: >-
+    Ph.D. in Mathematical Models and Methods in Engineering <br/>
+    MOX Laboratory, Department of Mathematics
+  date: 2022 - 2025
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+- name: Politecnico di Bari
+  position: M.Sc. in Mechanical Engineering
+  date: 2018 - 2021
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Politecnico di Bari
+  position: B.Sc. in Mechanical Engineering
+  date: 2014 - 2018
+
+
+experience:
+- name: Politecnico di Milano
+  position: >-
+    Postdoctoral Research Fellow <br/>
+    MOX Laboratory, Department of Mathematics
+  date: 2026 - present
+
+- name: Simula Research Laboratory
+  position: Research Visitor
+  date: Aug. 2025 - Oct. 2025
+
+
+# I would leave awards off the homepage for now.
+# awards:
+```
